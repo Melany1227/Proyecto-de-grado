@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 80px;
 }
 
 @media (max-width: 992px) {
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #e03a3c;
+  color: #009b6e;
 }
 
 .nav-menu .drop-down ul {
@@ -163,47 +163,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
-.nav-menu .drop-down li {
-  min-width: 180px;
-  position: relative;
-}
 
-.nav-menu .drop-down ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-}
-
-.nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #e03a3c;
-}
-
-.nav-menu .drop-down > a:after {
-  content: "\ea99";
-  font-family: IcoFont;
-  padding-left: 5px;
-}
-
-.nav-menu .drop-down .drop-down ul {
-  top: 0;
-  left: calc(100% - 30px);
-}
-
-.nav-menu .drop-down .drop-down:hover > ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-}
-
-.nav-menu .drop-down .drop-down > a {
-  padding-right: 35px;
-}
-
-.nav-menu .drop-down .drop-down > a:after {
-  content: "\eaa0";
-  font-family: IcoFont;
-  position: absolute;
-  right: 15px;
 }
 
 @media (max-width: 1366px) {
@@ -233,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .get-started-btn:hover {
-  background: #111111;
+  background: #009b6e;
   color: #fff;
 }
 
@@ -357,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background: url("../img/hero-bg.png") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -472,7 +432,7 @@ section {
 
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: #2e4057;
   position: absolute;
   bottom: 60px;
   top: 60px;
